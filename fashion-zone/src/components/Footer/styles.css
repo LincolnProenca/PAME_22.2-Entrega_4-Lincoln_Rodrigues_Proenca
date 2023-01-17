@@ -1,0 +1,10 @@
+.Footer_container {
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+}

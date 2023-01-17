@@ -1,0 +1,26 @@
+.prod_container {
+  flex: 1;
+  align-items: center;
+  margin: 3em;
+  display: flex;
+  flex-direction: column;
+  width: 19em;
+  height: 29em;
+}
+.img1_prod {
+  margin: 0;
+  width: 19em;
+  height: 29em;
+}
+.prod_text {
+  margin: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.prod_name {
+  font-size: 1.3em;
+}
+.prod_price {
+  font-size: 1.3em;
+}
