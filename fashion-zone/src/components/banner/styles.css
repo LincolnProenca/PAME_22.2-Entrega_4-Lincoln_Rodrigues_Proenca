@@ -56,9 +56,12 @@
 .img1,
 .img2,
 .img3 {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   margin-top: 6%;
   margin-left: 8%;
-  height: 80%;
+  height: 95%;
 }
 .img2 {
   margin-top: 3%;
@@ -67,7 +70,7 @@
   background-color: rgb(239, 169, 34);
 }
 .text-head {
-  font-size: 580%;
+  font-size: 5vw;
   text-align: center;
 }
 .vermais {
@@ -78,4 +81,31 @@
   border-radius: 5px;
   border-width: 5px;
   border-color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .banner1,
+  .banner2,
+  .banner3 {
+    flex-direction: column;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    flex: 0 0 auto;
+    height: auto;
+    width: 80%;
+  }
+  .vermais {
+    font-size: 180%;
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: black;
+  }
+  .Textos {
+    width: 100%;
+  }
 }
