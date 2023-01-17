@@ -1,0 +1,93 @@
+.login-container {
+  margin: 5em;
+  height: 60vh;
+  width: calc(100vw - 10em);
+  margin-bottom: 10em;
+}
+.login2-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.entrar-cont {
+  height: 42%;
+  background-color: rgb(244, 230, 232);
+  flex: 1;
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+}
+.cadastro-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 5em;
+  background-color: rgb(245, 245, 245);
+  flex: 1;
+  align-items: flex-start;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+}
+.log-text {
+  color: rgb(224, 161, 161);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.input-login {
+  margin: 0.2em;
+  height: 1.8em;
+  width: 100%;
+  padding: 0.2em;
+  border-radius: 0;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(227, 172, 172);
+}
+.input-login::placeholder {
+  color: rgb(227, 172, 172);
+}
+.esqueci {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+  padding-left: 0.2rem;
+}
+.login-button {
+  margin: 1em 0em;
+  padding: 1em 3em;
+  border-radius: 0;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(66, 66, 66);
+  color: rgb(66, 66, 66);
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  transition: 0.2s;
+}
+.login-button:hover {
+  background-color: rgb(214, 165, 165);
+  color: white;
+  border-color: rgb(214, 165, 165);
+}
+
+@media screen and (max-width: 900px) {
+  .login2-cont {
+    flex-direction: column;
+  }
+  .login-container {
+    height: 100%;
+  }
+  .entrar-cont {
+    margin-bottom: 0.8em;
+  }
+  .cadastro-cont {
+    margin-top: 0.8em;
+  }
+}
