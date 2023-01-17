@@ -1,0 +1,91 @@
+.navbar-container {
+  height: 60px;
+  background-color: rgb(255, 252, 246);
+}
+
+.divisor {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Parte da esquerda */
+.esquerda {
+  order: 1;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.texto-cont {
+  width: 100px;
+}
+.texto {
+  align-items: flex-start;
+  text-align: center;
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+/* Parte do meio */
+.nav-icon {
+  display: none;
+}
+.meio {
+  order: 2;
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.categorias {
+  padding: 10px max(2%, 10px);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bold;
+}
+
+/* Parte da esquerda */
+.direita {
+  order: 3;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}
+input {
+  padding: 5px;
+  margin: 0;
+  width: 50%;
+  height: 15px;
+  border-width: 1px;
+  border-color: rgb(228, 228, 228);
+  border-radius: 3px;
+}
+img {
+  padding-left: 5px;
+  height: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .esquerda {
+    order: 2;
+    justify-content: center;
+  }
+  .meio {
+    flex: 1;
+    order: 1;
+  }
+  .nav-icon {
+    display: flex;
+  }
+  .categorias {
+    display: none;
+  }
+  input {
+    width: 60%;
+  }
+}
