@@ -1,8 +1,13 @@
 .Prin-prod {
   width: 100%;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   font-size: 2em;
-  margin: 0.9rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+.home {
+  overflow: hidden;
 }

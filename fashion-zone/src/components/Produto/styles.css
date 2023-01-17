@@ -1,16 +1,17 @@
 .prod_container {
   flex: 1;
   align-items: center;
-  margin: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
   display: flex;
   flex-direction: column;
   width: 19em;
-  height: 29em;
+  height: 35em;
 }
 .img1_prod {
   margin: 0;
-  width: 19em;
-  height: 29em;
+  width: 100%;
+  height: auto;
 }
 .prod_text {
   margin: 0.5rem;

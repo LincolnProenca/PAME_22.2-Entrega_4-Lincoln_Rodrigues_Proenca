@@ -26,9 +26,9 @@ function Navbar() {
         </div>
         <div className="direita">
           <input type="text" placeholder="Pesquisar"></input>
-          <img src={search} alt=""></img>
-          <img src={bag} alt=""></img>
-          <img src={user} alt=""></img>
+          <img className="nav-img" src={search} alt=""></img>
+          <img className="nav-img" src={bag} alt=""></img>
+          <img className="nav-img" src={user} alt=""></img>
         </div>
       </div>
     </div>

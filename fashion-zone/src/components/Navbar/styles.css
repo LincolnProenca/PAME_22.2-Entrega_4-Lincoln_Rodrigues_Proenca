@@ -48,6 +48,10 @@
   text-align: center;
   font-family: "Urbanist", sans-serif;
   font-weight: bold;
+  transition: 0.2s;
+}
+.categorias:hover {
+  color: rgb(255, 196, 216);
 }
 
 /* Parte da esquerda */
@@ -71,6 +75,11 @@ img {
   cursor: pointer;
   padding-left: 5px;
   height: 25px;
+}
+.nav-img:hover {
+  filter: invert(78%) sepia(13%) saturate(663%) hue-rotate(293deg)
+    brightness(103%) contrast(101%);
+  transition: 0.2s;
 }
 
 @media screen and (max-width: 900px) {

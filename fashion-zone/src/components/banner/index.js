@@ -42,7 +42,7 @@ function Banner() {
           }}
         >
           <div className="banner1">
-            <div className="img1">
+            <div className="img1-cont">
               <img className="img1" src={img1} alt=""></img>
             </div>
 
@@ -52,7 +52,7 @@ function Banner() {
             </div>
           </div>
           <div className="banner2">
-            <div className="img2">
+            <div className="img2-cont">
               <img className="img2" src={img2} alt=""></img>
             </div>
 
@@ -62,7 +62,7 @@ function Banner() {
             </div>
           </div>
           <div className="banner3">
-            <div className="img3">
+            <div className="img3-cont">
               <img className="img3" src={img3} alt=""></img>
             </div>
             <div className="Textos">

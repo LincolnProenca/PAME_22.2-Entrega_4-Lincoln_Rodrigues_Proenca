@@ -10,42 +10,42 @@ function Listaproduto() {
         <Produto
           nomeProduto={"Pijama Nana Sea Skull"}
           imgProduto={img1}
-          precoProduto={99.9}
+          precoProduto={538}
         ></Produto>
         <Produto
           nomeProduto={"Pijama Nana Sea Skull"}
           imgProduto={img1}
-          precoProduto={99.9}
+          precoProduto={538}
         ></Produto>
         <Produto
           nomeProduto={"Pijama Nana Sea Skull"}
           imgProduto={img1}
-          precoProduto={99.9}
+          precoProduto={538}
         ></Produto>
         <Produto
           nomeProduto={"Pijama Nana Sea Skull"}
           imgProduto={img1}
-          precoProduto={99.9}
+          precoProduto={538}
         ></Produto>
         <Produto
           nomeProduto={"Pijama Nana Sea Skull"}
           imgProduto={img1}
-          precoProduto={99.9}
+          precoProduto={538}
         ></Produto>
         <Produto
           nomeProduto={"Pijama Nana Sea Skull"}
           imgProduto={img1}
-          precoProduto={99.9}
+          precoProduto={538}
         ></Produto>
         <Produto
           nomeProduto={"Pijama Nana Sea Skull"}
           imgProduto={img1}
-          precoProduto={99.9}
+          precoProduto={538}
         ></Produto>
         <Produto
           nomeProduto={"Pijama Nana Sea Skull"}
           imgProduto={img1}
-          precoProduto={99.9}
+          precoProduto={538}
         ></Produto>
       </div>
     </div>

@@ -10,7 +10,7 @@ function Produto({ nomeProduto, imgProduto, precoProduto }) {
         </div>
         <div className="prod_text">
           <div className="prod_name">{nomeProduto}</div>
-          <div className="prod_price">R$ {precoProduto}</div>
+          <div className="prod_price">R$ {precoProduto},00</div>
           <div className="prod_price2">
             10x de R$ {(precoProduto / 10).toFixed(2)} sem juros
           </div>
