@@ -1,3 +1,8 @@
+.lista_produtos_container-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .lista_produtos_container {
   margin: 2em;
   margin-bottom: 6em;

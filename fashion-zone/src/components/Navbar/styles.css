@@ -56,7 +56,7 @@
   color: rgb(255, 196, 216);
 }
 
-/* Parte da esquerda */
+/* Parte da direita */
 .direita {
   order: 3;
   flex: 1;
@@ -90,6 +90,8 @@ img {
     justify-content: center;
   }
   .meio {
+    justify-content: flex-start;
+    align-items: center;
     flex: 1;
     order: 1;
   }

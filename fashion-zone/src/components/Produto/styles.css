@@ -1,12 +1,17 @@
+.prod-cont-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  width: 19em;
+  height: auto;
+}
+
 .prod_container {
   flex: 1;
   align-items: center;
-  margin-left: 3em;
-  margin-right: 3em;
   display: flex;
   flex-direction: column;
-  width: 19em;
-  height: 35em;
 }
 .img1_prod {
   margin: 0;
@@ -20,8 +25,28 @@
   text-align: center;
 }
 .prod_name {
+  font-family: "Urbanist", sans-serif;
   font-size: 1.3em;
 }
 .prod_price {
+  font-family: "Urbanist", sans-serif;
   font-size: 1.3em;
+}
+.prod_mat {
+  font-size: 0.9rem;
+  color: rgb(56, 56, 56);
+  font-family: "Urbanist", sans-serif;
+}
+
+@media screen and (max-width: 1534px) {
+  .prod-cont-cont {
+    width: 28vw;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1038px) {
+  .prod-cont-cont {
+    width: 70%;
+    height: auto;
+  }
 }
